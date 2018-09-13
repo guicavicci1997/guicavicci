@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ .btn-dark{
+    color: #ffffff;
+    background-color: #0e0e0e;
+
+ }
