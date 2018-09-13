@@ -13907,3 +13907,1104 @@ Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/application.self-d32e8ccd91742868ff69b009f01aeaed2831079913df3e1f050ff0857c7ad142.css?body=1" for 127.0.0.1 at 2018-09-13 14:11:46 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:14:14 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:14:29 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:14:31 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:14:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:14:37 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:14:46 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:14:49 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:32:03 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:32:04 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.7ms)
+  Rendered contatos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:32:10 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:32:17 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:32:19 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:32:29 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (2.4ms)
+  Rendered contatos/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:32:30 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FIXxyuXa1H2gP9FeqXs8ea57yvugCdcK6CjIgyiIHL+ROaDB0whU9C2B7+w0vTxE/PMxC7h8dTr82r7dBwEBRQ==", "contato"=>{"nome"=>"", "email"=>"", "telefone"=>"", "texto"=>""}, "commit"=>"Enviar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", ""], ["email", ""], ["telefone", ""], ["texto", ""], ["created_at", "2018-09-13 17:32:30.157759"], ["updated_at", "2018-09-13 17:32:30.157759"]]
+  [1m[36m (112.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contatos/3
+Completed 302 Found in 116ms (ActiveRecord: 113.0ms)
+
+
+Started GET "/contatos/3" for 127.0.0.1 at 2018-09-13 14:32:30 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/3"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.1ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:32:39 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+LcyAAd7Xw6CeaUQL+m5eQGs3WP22SVrfpFgUuq6o7V9C2MLManfhw/Hm6KyL7lEUyQmk+6sh1tqYxYMxTO+Tw==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:32:39.312373"], ["updated_at", "2018-09-13 17:32:39.312373"]]
+  [1m[35m (166.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/contatos/4
+Completed 302 Found in 169ms (ActiveRecord: 166.6ms)
+
+
+Started GET "/contatos/4" for 127.0.0.1 at 2018-09-13 14:32:39 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/4"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:34:01 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (0.5ms)
+  Rendered contatos/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:35: unterminated string meets end of file
+/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:35: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/contatos/_form.html.erb:35: unterminated string meets end of file
+  app/views/contatos/_form.html.erb:35: syntax error, unexpected end-of-input, expecting ')'
+  app/views/contatos/new.html.erb:3:in `_app_views_contatos_new_html_erb___3593963935520218448_69939278498920'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.2ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:34:08 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (2.0ms)
+  Rendered contatos/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:34:16 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VTbUNbeHJ3MVEMFLS3Qr9HYfaBM3krzlMAjGfYXFuTzQioU+gVWn+piu//nWsivJJJeT4y/nHtUk+rAjqkykxg==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:34:16.982930"], ["updated_at", "2018-09-13 17:34:16.982930"]]
+  [1m[36m (177.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contatos/5
+Completed 302 Found in 181ms (ActiveRecord: 177.6ms)
+
+
+Started GET "/contatos/5" for 127.0.0.1 at 2018-09-13 14:34:17 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/5"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/contatos/5" for 127.0.0.1 at 2018-09-13 14:36:49 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/5"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:36:51 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:36:52 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:36:57 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n+bBE3EE9KEoAs9dr7YxYd1WJzw89c6vvM5H9kaN3W8aWpAYR9Z0KKW88e8ycDFcj97czCSAbJ+oPDGoaQTAlQ==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:36:57.765491"], ["updated_at", "2018-09-13 17:36:57.765491"]]
+  [1m[35m (182.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/contatos/6
+Completed 302 Found in 185ms (ActiveRecord: 182.9ms)
+
+
+Started GET "/contatos/6" for 127.0.0.1 at 2018-09-13 14:36:57 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/6"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:38:06 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 185ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:38:07 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (258.0ms)
+  Rendered contatos/new.html.erb within layouts/application (260.5ms)
+Completed 200 OK in 305ms (Views: 299.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:38:14 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eHwbf6MktTmMIgLDuV9kTtiaH+Z2qaqj35Wb+XRkZBn9wEp0lfY1sAGcPHEkmWRzihLkFm7cCJPLZ+2nW+154w==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:38:14.758494"], ["updated_at", "2018-09-13 17:38:14.758494"]]
+  [1m[35m (194.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/contatos/7
+Completed 302 Found in 199ms (ActiveRecord: 194.5ms)
+
+
+Started GET "/contatos/7" for 127.0.0.1 at 2018-09-13 14:38:14 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/7"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.1ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:39:21 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (0.8ms)
+  Rendered contatos/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:1: syntax error, unexpected ','
+...end=( form_for @contato do |f|, method: "post");@output_buff...
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...contato do |f|, method: "post");@output_buffer.safe_append='
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+/home/gneves/wp-facul/guicavicci/app/views/contatos/_form.html.erb:41: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/contatos/_form.html.erb:1: syntax error, unexpected ','
+  app/views/contatos/_form.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+  app/views/contatos/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/contatos/_form.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+  app/views/contatos/new.html.erb:3:in `_app_views_contatos_new_html_erb__604491987249824659_70265081911720'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:39:53 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.9ms)
+  Rendered contatos/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:39:57 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8o/GZK0dGLWAg6/VbjAJneODd9jfJqWfNM8o+YDLh6Z3M5dvm8+YPA09kWfz9gmgsQuMKMdTB68gPV6nr0KaXA==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:39:57.871432"], ["updated_at", "2018-09-13 17:39:57.871432"]]
+  [1m[36m (143.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contatos/8
+Completed 302 Found in 146ms (ActiveRecord: 143.5ms)
+
+
+Started GET "/contatos/8" for 127.0.0.1 at 2018-09-13 14:39:58 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/8"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:41:15 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.7ms)
+  Rendered contatos/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 44ms (Views: 39.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:41:20 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+ZPySN6w4H1EDWneAsOzWcUFphN7aEOjcw3CiokyoEt8L6ND6GJg9MmzV2yfBbNkl41d42Md4ZNn/7TUpru9sQ==", "contato"=>{"nome"=>"TESTE", "email"=>"TESTE", "telefone"=>"TESTE", "texto"=>"TESTE"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "TESTE"], ["email", "TESTE"], ["telefone", "TESTE"], ["texto", "TESTE"], ["created_at", "2018-09-13 17:41:20.512191"], ["updated_at", "2018-09-13 17:41:20.512191"]]
+  [1m[35m (172.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/contatos/9
+Completed 302 Found in 176ms (ActiveRecord: 172.8ms)
+
+
+Started GET "/contatos/9" for 127.0.0.1 at 2018-09-13 14:41:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/9"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:42:19 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:42:22 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:42:23 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:42:24 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:42:34 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+2s4b1P3vPhPTs8beZnGmOZFtDbQEapmYmAq/ikOrY6Uf3qi51eemyDBY7wIGcnMRHtIMM15JmNe/b11y0nTA==", "contato"=>{"nome"=>"teas", "email"=>"tes", "telefone"=>"tes", "texto"=>"tes"}, "commit"=>"Enviar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", "teas"], ["email", "tes"], ["telefone", "tes"], ["texto", "tes"], ["created_at", "2018-09-13 17:42:34.176849"], ["updated_at", "2018-09-13 17:42:34.176849"]]
+  [1m[36m (181.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contatos/10
+Completed 302 Found in 184ms (ActiveRecord: 181.2ms)
+
+
+Started GET "/contatos/10" for 127.0.0.1 at 2018-09-13 14:42:34 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos/10"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/contatos/" for 127.0.0.1 at 2018-09-13 14:43:06 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:43:08 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:46:02 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:46:09 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S9Ow1shpcrNaLXTuJSFyNcvxUd4nJb5cdn1qpYDP9zXOb+Hd/rvyOteTSly453IImXmqLj9QHGxijxz7r0bqzw==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:46:09.647064"], ["updated_at", "2018-09-13 17:46:09.647064"]]
+  [1m[35m (197.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/contatos
+Completed 302 Found in 201ms (ActiveRecord: 198.0ms)
+
+
+Started GET "/contatos" for 127.0.0.1 at 2018-09-13 14:46:09 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contatos"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:46:33 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:46:56 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:47:01 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gjrrr44gujLRsvNSLqciVXZItiJRJE+EVCPd72PGEFefhrqkuPI6u1wMzeCzYSJoJMBN0klR7bRA0auxTE8NrQ==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste"}, "commit"=>"Enviar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste"], ["created_at", "2018-09-13 17:47:01.426009"], ["updated_at", "2018-09-13 17:47:01.426009"]]
+  [1m[36m (167.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contatos/new
+Completed 302 Found in 171ms (ActiveRecord: 168.1ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:47:01 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:47:32 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:47:33 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 14:47:39 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:47:41 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:47:42 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.2ms)
+  Rendered contatos/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:47:43 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.8ms)
+  Rendered contatos/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:58:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (206.6ms)
+  Rendered contatos/new.html.erb within layouts/application (209.2ms)
+Completed 200 OK in 443ms (Views: 431.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 14:58:27 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m3w6vqUeDuNBe9XhKmB0k+lE6GT/Q3hBVDgYpqqQB04ewGu1k8yOaszF61O3pnSuu8wTlOc22nFAym74hRkatA==", "contato"=>{"nome"=>"teste", "email"=>"teste", "telefone"=>"teste", "texto"=>"teste22222"}, "commit"=>"Enviar"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["email", "teste"], ["telefone", "teste"], ["texto", "teste22222"], ["created_at", "2018-09-13 17:58:27.640940"], ["updated_at", "2018-09-13 17:58:27.640940"]]
+  [1m[35m (202.1ms)[0m  commit transaction
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in create at /home/gneves/wp-facul/guicavicci/app/controllers/contatos_controller.rb:31)
+  Rendered user_mailer/sigup_confirmation.html.erb within layouts/mailer (0.3ms)
+  Rendered user_mailer/sigup_confirmation.text.erb within layouts/mailer (0.2ms)
+
+UserMailer#sigup_confirmation: processed outbound mail in 218.9ms
+
+Sent mail to guicavicci@gmail.com (3276.0ms)
+Date: Thu, 13 Sep 2018 14:58:28 -0300
+From: guinoreply@gmail.com
+To: guicavicci@gmail.com
+Message-ID: <5b9aa544167d3_64102902480858c4@MM-DEV-13.mail>
+Subject: Contato - Guicavicci
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5b9aa5441584d_6410290248085730";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5b9aa5441584d_6410290248085730
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+UserMailer#sigup_confirmation
+
+Hi teste, find me in app/views/user_mailer/sigup_confirmation.text.erb
+
+
+----==_mimepart_5b9aa5441584d_6410290248085730
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Contato/h1>
+
+<p>
+
+  teste22222
+  
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_5b9aa5441584d_6410290248085730--
+
+Redirected to http://localhost:3000/contatos/new
+Completed 302 Found in 3726ms (ActiveRecord: 202.4ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 14:58:31 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:06:17 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 30.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:06:26 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:08:08 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contatos" for 127.0.0.1 at 2018-09-13 15:08:24 -0300
+Processing by ContatosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ky1QT5Tloy7/s5xNTRDYOdENGDpzOL01ZzrX/1IOEZAWkQFEojcjp3INov/Q1tgEg4XjymtNHwVzyKGhfYcMag==", "contato"=>{"nome"=>"Guilherme", "email"=>"teste@teste", "telefone"=>"teste tel", "texto"=>"testando"}, "commit"=>"Enviar"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "contatos" ("nome", "email", "telefone", "texto", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["nome", "Guilherme"], ["email", "teste@teste"], ["telefone", "teste tel"], ["texto", "testando"], ["created_at", "2018-09-13 18:08:24.810170"], ["updated_at", "2018-09-13 18:08:24.810170"]]
+  [1m[36m (315.3ms)[0m  [1mcommit transaction[0m
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from block in create at /home/gneves/wp-facul/guicavicci/app/controllers/contatos_controller.rb:31)
+  Rendered user_mailer/sigup_confirmation.html.erb within layouts/mailer (0.3ms)
+  Rendered user_mailer/sigup_confirmation.text.erb within layouts/mailer (0.2ms)
+
+UserMailer#sigup_confirmation: processed outbound mail in 6.8ms
+
+Sent mail to guicavicci@gmail.com (2409.7ms)
+Date: Thu, 13 Sep 2018 15:08:25 -0300
+From: guinoreply@gmail.com
+To: guicavicci@gmail.com
+Message-ID: <5b9aa79922114_64103fd4232e2f0c860f0@MM-DEV-13.mail>
+Subject: Contato - Guicavicci
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5b9aa79921aad_64103fd4232e2f0c859d4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5b9aa79921aad_64103fd4232e2f0c859d4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+UserMailer#sigup_confirmation
+
+, find me in app/views/user_mailer/sigup_confirmation.text.erb
+
+
+----==_mimepart_5b9aa79921aad_64103fd4232e2f0c859d4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Contato - GuiCavicci</h1>
+
+<p>
+<div>
+Guilherme
+</div>
+
+</div>
+teste@teste
+<div>
+
+<div>
+teste tel
+</div>
+
+<div>
+testando
+</div>
+</p>
+
+  </body>
+</html>
+
+----==_mimepart_5b9aa79921aad_64103fd4232e2f0c859d4--
+
+Redirected to http://localhost:3000/contatos/new
+Completed 302 Found in 2740ms (ActiveRecord: 315.6ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:08:27 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:09:27 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.2ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:09:29 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:09:29 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:09:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:09:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:10:56 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:11:17 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:11:18 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:11:19 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:12:30 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.7ms)
+  Rendered contatos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:31 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:33 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:33 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:12:34 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:36 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:12:40 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:17:18 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:17:35 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:17:39 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:17:41 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:17:41 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:17:42 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-13 15:17:44 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.3ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-13 15:17:47 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)

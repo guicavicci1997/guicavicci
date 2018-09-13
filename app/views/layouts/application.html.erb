@@ -16,12 +16,11 @@
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><%= link_to "Home", root_path %></li>
-        <%= drop_down "Minha historia" do %>
-          <%= menu_item "Things you can't afford", root_path %>
-          <%= menu_item "Things that won't suit you anyway", root_path %>
-          <%= menu_item "Things you're not even cool enough to buy anyway", root_path %>
+        <%= menu_item "Minha historia", root_path %>
+        <%= drop_down "Inspiracoes" do %>
+          <%= menu_item "Musica", root_path %>
+          <%= menu_item "Tecnologia", root_path %>
         <% end %>
-        <%= menu_item "Inspiracoes", root_path %>
         <%= menu_item "Contatos", new_contato_path %>
       </ul>
     </div>

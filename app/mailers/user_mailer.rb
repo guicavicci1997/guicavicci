@@ -6,8 +6,9 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.sigup_confirmation.subject
   #
-  def sigup_confirmation
-    @greeting = "Hi"
+  def sigup_confirmation(contato)
+    
+    @contato = contato
 
     mail to: "guicavicci@gmail.com", subject: "Contato - Guicavicci"
   end

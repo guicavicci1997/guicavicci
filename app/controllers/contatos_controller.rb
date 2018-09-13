@@ -28,7 +28,8 @@ class ContatosController < ApplicationController
 
     respond_to do |format|
       if @contato.save
-        format.html { redirect_to @contato, notice: 'Contato was successfully created.' }
+        UserMailer.sigup_confirmation(@contato).deliver
+        format.html { redirect_to new_contato_path, notice: 'Contato was successfully created.' }
         format.json { render :show, status: :created, location: @contato }
       else
         format.html { render :new }
