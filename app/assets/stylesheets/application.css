@@ -23,5 +23,17 @@
 .bd-navbar {
     min-height: 4rem;
     background-color: #3c3838;
-    color: 
+    border: 5px;
 }
+
+.inverse-dropdown{
+    background-color: #222;
+    border-color: #080808;
+    &>li>a{
+      color: #999;
+      &:hover{
+        color: #fff;
+        background-color: #000;
+      }
+    }
+  }
