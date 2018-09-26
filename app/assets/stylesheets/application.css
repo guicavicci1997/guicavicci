@@ -37,3 +37,20 @@
       }
     }
   }
+
+  .navbar-brand {
+    text-decoration: none;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+
+  .dropdown-toggle{
+    text-decoration: none;
+  }
+
+  .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+    background-color:#3c3838;
+    color: #666
+  }

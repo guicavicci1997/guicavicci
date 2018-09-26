@@ -20425,3 +20425,2411 @@ Started GET "/" for 127.0.0.1 at 2018-09-14 14:24:01 -0300
 Processing by PortfoliosController#index as HTML
   Rendered portfolios/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:47:41 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 14:47:41 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:47:46 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:47:47 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 14:47:49 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:50:11 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 14:50:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 14:50:21 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:50:37 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:52:37 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c3749ceb696673adfd9952afd74d457ad18ec59ba20b3d35cd89485a213357bd.css?body=1" for 127.0.0.1 at 2018-09-14 14:52:37 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 14:52:38 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:53:17 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dd005ab55a7ac48d617fa7d8d57f48ad522fb91d7f6910bc530003f58aa0700b.css?body=1" for 127.0.0.1 at 2018-09-14 14:53:17 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 14:53:17 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:54:36 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    17:       <ul class="nav navbar-nav">
+    18:         <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
+    19:         <%= menu_item "Minha historia", minha_historia_path, class: "nav-link" %>
+    20:         <%= drop_down "Inspiracoes", class:"nav-link" do %>
+    21:           <%= menu_item "Musica", root_path%>
+    22:           <%= menu_item "Tecnologia", root_path%>"
+    23:         <% end %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__4443740959977094630_69837124178240'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 14:54:45 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    17:       <ul class="nav navbar-nav">
+    18:         <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
+    19:         <%= menu_item "Minha historia", minha_historia_path, class: "nav-link" %>
+    20:         <%= drop_down "Inspiracoes", class: "nav-link" do %>
+    21:           <%= menu_item "Musica", root_path%>
+    22:           <%= menu_item "Tecnologia", root_path%>"
+    23:         <% end %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__4443740959977094630_69837128881580'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:00:29 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    17:       <ul class="nav navbar-nav">
+    18:         <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
+    19:         <%= menu_item "Minha historia", minha_historia_path, class: "nav-link" %>
+    20:         <%= drop_down "Inspiracoes", class: "nav-link" do %>
+    21:           <%= menu_item "Musica", root_path%>
+    22:           <%= menu_item "Tecnologia", root_path%>"
+    23:         <% end %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__4443740959977094630_69837131726660'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:01:54 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:01:54 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:02:15 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:02:15 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:02:18 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:02:20 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:02:21 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:02:23 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:03:42 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:22: syntax error, unexpected ')'
+...ecnologia", root_path , class:);@output_buffer.safe_append='
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting ')'
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:59: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:22: syntax error, unexpected ')'
+  app/views/layouts/application.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+  app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:03:56 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:03:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:04:19 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 2, expected 1)):
+    17:       <ul class="nav navbar-nav">
+    18:         <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
+    19:         <%= menu_item "Minha historia", minha_historia_path, class: "nav-link" %>
+    20:         <%= drop_down "Inspiracoes", class: "nav-link" do %>
+    21:           <%= menu_item "Musica", root_path%>
+    22:           <%= menu_item "Tecnologia", root_path%>
+    23:         <% end %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__4443740959977094630_69837131184200'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:04:48 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:04:48 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:05:00 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:20: syntax error, unexpected ','
+...d=( drop_down "Inspiracoes" do, class: "nav-link" );@output_...
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:20: syntax error, unexpected ')', expecting keyword_end
+...racoes" do, class: "nav-link" );@output_buffer.safe_append='
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting ')'
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:59: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/application.html.erb:20: syntax error, unexpected ','
+  app/views/layouts/application.html.erb:20: syntax error, unexpected ')', expecting keyword_end
+  app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/application.html.erb:59: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:09:40 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:20: syntax error, unexpected tLABEL
+...fer.append=  drop_down , class: "nav-link" "Inspiracoes" do ...
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_do, expecting keyword_end
+...ss: "nav-link" "Inspiracoes" do @output_buffer.safe_append='
+...                               ^
+/home/gneves/wp-facul/guicavicci/app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/layouts/application.html.erb:20: syntax error, unexpected tLABEL
+  app/views/layouts/application.html.erb:20: syntax error, unexpected keyword_do, expecting keyword_end
+  app/views/layouts/application.html.erb:57: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:09:47 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:09:47 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:10:27 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7b99bfa20c8f216b2044d17e7e616670d00c1b63a5ce360dcdcf9cc4cbd9d1ec.css?body=1" for 127.0.0.1 at 2018-09-14 15:10:27 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:10:27 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:11:50 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1a266a34dee1af872897563d7535ac6d48d32d049c7ecbf22b41bb47bdd5cd84.css?body=1" for 127.0.0.1 at 2018-09-14 15:11:50 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:11:50 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:14:52 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5f328e6359a3111e33f73920a8b0835c916fb20c07b02803d88d2af9c6d256a8.css?body=1" for 127.0.0.1 at 2018-09-14 15:14:52 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:14:52 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:15:59 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-add35e2de72898f35391f20d0b77e90c674ed128bca380c6405f700dc460a8e5.css?body=1" for 127.0.0.1 at 2018-09-14 15:15:59 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:16:00 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:16:07 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:16:10 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:16:10 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:16:14 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:16:14 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:16:15 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:17:43 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:17:43 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:17:59 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a978acbec80e4a12891ec2d6087c177fff9919c4ff693d3a72b9f6627fe3e97a.css?body=1" for 127.0.0.1 at 2018-09-14 15:17:59 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:18:00 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:18:22 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:18:47 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:18:47 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:18:49 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:18:53 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:18:53 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:19:45 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:20:17 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:20:35 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:20:41 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:22:02 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:32:20 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:32:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:32:21 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:32:21 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:37:42 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:37:43 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:38:26 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:38:26 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:39:56 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:41:23 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:41:23 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:41:26 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:44:25 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:48:11 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:48:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:48:52 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:48:52 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:49:29 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:49:37 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:49:48 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:52:25 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:52:25 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:52:26 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (2.0ms)
+  Rendered contatos/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:52:47 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (2.2ms)
+  Rendered contatos/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 42ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:52:47 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:52:54 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.9ms)
+  Rendered contatos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 15:52:54 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:53:06 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:53:36 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.8ms)
+  Rendered contatos/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 43ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:53:44 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:54:28 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:54:31 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:54:38 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:54:39 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:54:50 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:54:59 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (2.1ms)
+  Rendered contatos/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:55:31 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.4ms)
+  Rendered contatos/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:55:32 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:55:47 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.8ms)
+  Rendered contatos/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:55:58 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:55:59 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.5ms)
+  Rendered contatos/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 15:56:04 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (1.6ms)
+  Rendered contatos/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 15:56:05 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:56:12 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 15:59:40 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 302ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4443740959977094630_69837125063000'
+  app/controllers/portfolios_controller.rb:65:in `minha_historia'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:00:08 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (139.2ms)
+Completed 200 OK in 192ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/geral.self-4b4e4a2e7eee75ca174e953658a0fbbf6da663057504c572112fb4adf405e402.css?body=1" for 127.0.0.1 at 2018-09-14 16:00:08 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 16:00:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:00:27 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 16:00:31 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 16:00:36 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:00:37 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:01:25 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-14 16:01:25 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 16:01:27 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:01:28 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 16:01:29 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:01:32 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 16:01:36 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (187.6ms)
+  Rendered contatos/new.html.erb within layouts/application (188.5ms)
+Completed 200 OK in 226ms (Views: 220.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-14 16:01:52 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 16:05:30 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/new.html.erb within layouts/application (145.0ms)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( contato.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag "contato.css"%>
+    2: 
+    3: <h1>Contato</h1>
+    4: 
+  app/views/contatos/new.html.erb:1:in `_app_views_contatos_new_html_erb___1465237201874486499_36868280'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-14 16:05:40 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (224.6ms)
+  Rendered contatos/new.html.erb within layouts/application (358.6ms)
+Completed 500 Internal Server Error in 521ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2315268865838579926_29288460'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-14 16:06:18 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2315268865838579926_29288460'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.2ms)
+
+
+Started GET "/asks/overdue_asks.json?quantity=5&user_id=1" for 127.0.0.1 at 2018-09-14 17:18:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/asks/overdue_asks.json"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/asks/next_asks.json?quantity=5&user_id=1" for 127.0.0.1 at 2018-09-14 17:18:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/asks/next_asks.json"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.1ms)
+
+
+Started GET "/asks/overdue_asks.json?quantity=5&user_id=1" for 127.0.0.1 at 2018-09-14 17:19:05 -0300
+
+ActionController::RoutingError (No route matches [GET] "/asks/overdue_asks.json"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.7ms)
+
+
+Started GET "/asks/next_asks.json?quantity=5&user_id=1" for 127.0.0.1 at 2018-09-14 17:19:06 -0300
+
+ActionController::RoutingError (No route matches [GET] "/asks/next_asks.json"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 19:44:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 2340ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___369594076367537757_29128860'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-21 19:54:11 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___369594076367537757_29128860'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:28:44 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 3111ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4128003021953379934_25634960'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:31:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1749066084669329041_15748980'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:32:37 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1783446952217149122_14730780'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:33:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( geral.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "geral.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1574686185505085236_16801680'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:35:01 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( minha_historia.css )` to `config/initializers/assets.rb` and restart your server):
+    4:   <title>Guicavicci</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= stylesheet_link_tag "minha_historia.css"%>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+   10: <body>
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___62694106279844497_19062020'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 211ms (Views: 204.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/contato.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/geral.self-4b4e4a2e7eee75ca174e953658a0fbbf6da663057504c572112fb4adf405e402.css?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/minha_historia.self-4b4e4a2e7eee75ca174e953658a0fbbf6da663057504c572112fb4adf405e402.css?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-26 17:36:13 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:28 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-26 17:36:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:29 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-26 17:36:29 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:31 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.jpg" for 127.0.0.1 at 2018-09-26 17:36:31 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.10) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.10) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.10) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.10) lib/rack/lock.rb:17:in `call'
+  rack (1.6.10) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.10) lib/rack/handler/webrick.rb:88:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/gneves/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/gneves/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-26 17:36:34 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios/minha_historia" for 127.0.0.1 at 2018-09-26 17:36:35 -0300
+Processing by PortfoliosController#minha_historia as HTML
+  Rendered portfolios/minha_historia.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:36 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contatos/new" for 127.0.0.1 at 2018-09-26 17:36:47 -0300
+Processing by ContatosController#new as HTML
+  Rendered contatos/_form.html.erb (377.7ms)
+  Rendered contatos/new.html.erb within layouts/application (433.2ms)
+Completed 200 OK in 500ms (Views: 481.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-26 17:36:52 -0300
+Processing by PortfoliosController#index as HTML
+  Rendered portfolios/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
