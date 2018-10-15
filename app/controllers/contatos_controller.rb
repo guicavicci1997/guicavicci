@@ -62,6 +62,14 @@ class ContatosController < ApplicationController
     end
   end
 
+  def download_pdf
+    send_file(
+      "#{Rails.root}/public/guicavicci.pdf",
+      filename: "guicavicci.pdf",
+      type: "application/pdf"
+    )
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_contato

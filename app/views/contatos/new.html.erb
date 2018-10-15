@@ -1,7 +1,17 @@
 <%= stylesheet_link_tag "contato.css"%>
 
-<h1>Contato</h1>
+<div class="text-justify pull-right">
+    <h1 class="h1">
+        Download
+    </h1>
 
+<%= link_to 'Download PDF', download_pdf_path, target: "_blank", class: "btn btn-default pull-center", id: "download_pdf" %>
+</div>
+
+
+
+<div>
 <%= render 'form' %>
 
 <%= link_to "Voltar", root_path, class: "btn btn-default float-xs-right" %>
+</div>
