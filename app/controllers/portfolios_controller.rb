@@ -65,6 +65,14 @@ class PortfoliosController < ApplicationController
     render "minha_historia"
   end
 
+  def inspiracoes_musica
+    render "musica"
+  end
+
+  def inspiracoes_tecnologia
+    render "tecnologia"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_portfolio

@@ -12,14 +12,13 @@
 <div role="navigation" class="navbar navbar-light bd-navbar" id= "">
   <div class="container">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand">Guicavicci</a>
+    <%= link_to "Guicavicci", root_path, class: "navbar-brand" %>
     </div>
       <ul class="nav navbar-nav">
-        <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
         <%= menu_item "Minha historia", minha_historia_path, class: "nav-link" %>
         <%= drop_down "Inspiracoes" do %>
-          <%= menu_item "Musica", root_path%>
-          <%= menu_item "Tecnologia", root_path%>
+          <%= menu_item "Musica", inspiracoes_musica_path%>
+          <%= menu_item "Tecnologia", inspiracoes_tecnologia_path%>
         <% end %>
         <%= menu_item "Contatos", new_contato_path, class: "nav-link" %>
       </ul>
